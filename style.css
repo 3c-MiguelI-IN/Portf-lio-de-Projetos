@@ -29,13 +29,12 @@ body {
     padding-bottom: 2rem;
 }
 
-/* Correção do seletor errado (.hoover -> .hover) */
 .fundo-escuro:hover {
     opacity: 1;
 }
 
 .fundo-claro {
-    background-color: var(--cor-fundo); /* antes era branco, agora é escuro */
+    background-color: var(--cor-fundo); 
     color: var(--cor-principal);
     padding: 2rem 1rem;
 }
@@ -98,7 +97,7 @@ a:hover {
 
 .minhas-habilidades {
     color: #a19a9a;
-    background-color: var(--cor-fundo); /* adicionado para manter o fundo escuro */
+    background-color: var(--cor-fundo); 
     padding: 2rem 1rem;
 }
 
